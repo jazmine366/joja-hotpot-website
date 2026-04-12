@@ -12,9 +12,14 @@ h1{
     padding: 20px;
 }
 nav{
-    background-color: #333;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
     padding: 15px;
-    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
 }
 nav a{
     color: white;
@@ -27,9 +32,11 @@ nav a:hover{
 }
 section{
     background-color: white;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 img{
     display: block;
@@ -56,11 +63,40 @@ input, select, button{
     width: 150px;
 }
 button{
-    background-color: #d1495b;
+    background: linear-gradient(45deg, #d1495b, #ff7b7b);
     color: white;
     border: none;
+    padding: 10px;
+    border-radius: 8px;
     cursor: pointer;
 }
 button:hover{
-    background-color: #a83244;
+    opacity: 0.85;
+}
+.hero{
+    background: url("images/IMG_6223.jpg") center/cover no-repeat;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-card{
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.menu-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
