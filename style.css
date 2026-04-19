@@ -1,12 +1,12 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, Arial;
     margin: 0;
-    background-color: #f8f8f8;
+    background-color: rgb(134, 98, 12);
     color: #333;
 }
 h1{
     text-align: center;
-    background-color: #d1495b;
+    background-color: #d0713b;
     color: white;
     margin: 0;
     padding: 20px;
@@ -15,27 +15,30 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #2c2c2c;
     padding: 15px;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 25px;
+    flex-wrap: wrap
 }
-nav a{
-    color: white;
-    margin: 0 15px;
+nav a {
+    color: #f5f5f5;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
 }
-nav a:hover{
-    color: #ffcc00;
+
+nav a:hover {
+    background-color: #d1495b;
+    color: white;
 }
-section{
-    background-color: white;
+section {
+    background-color: #ffffff;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     max-width: 900px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
 }
 img{
     display: block;
@@ -114,4 +117,14 @@ button:hover{
     border-radius: 12px;
     flex-shrink: 0;          /* prevents shrinking */
     scroll-snap-align: start;
+}
+.announcement {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #d1495b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    font-weight: bold;
 }
