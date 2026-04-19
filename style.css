@@ -74,7 +74,7 @@ button:hover{
     opacity: 0.85;
 }
 .hero{
-    background: url("images/IMG_6223.jpg") center/cover no-repeat;
+    background: url("images/Cover.PNG") center/cover no-repeat;
     height: 300px;
     color: white;
     display: flex;
