@@ -1,4 +1,4 @@
-# JoJa Hot Pot Website
+# JoJa Hot Pot Website 🥘🍽️
 
 Hot Pot is my favorite food, so this a happy menu if I even open a hotpot restraunt when I retired. 
 
