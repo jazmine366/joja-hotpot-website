@@ -1,15 +1,12 @@
 # JoJa Hot Pot Website
 
-A restaurant website built with HTML and CSS.
+Hot Pot is my favorite food, so this a happy menu if I even open a hotpot restraunt when I retired. 
 
 ## Features
 - Hero section with branding
 - Navigation bar for easy access
 - Menu categories and food items
 - Popular dishes with images
-- Promotions section
-- Reservation form
-- Customer reviews
 - Business hours table
 - Embedded Google Maps location
 
