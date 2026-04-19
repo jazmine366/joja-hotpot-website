@@ -19,7 +19,6 @@ nav{
     padding: 15px;
     gap: 20px;
     flex-wrap: wrap;
-
 }
 nav a{
     color: white;
@@ -99,4 +98,20 @@ button:hover{
 .menu-card:hover{
     transform: scale(1.05);
     transition: 0.3s;
+}
+.popular-scroll {
+    display: flex;
+    overflow-x: auto;        /* allows horizontal scroll */
+    gap: 15px;
+    padding: 10px 0;
+    scroll-snap-type: x mandatory;  /* smooth snapping */
+}
+
+.popular-scroll img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;          /* prevents shrinking */
+    scroll-snap-align: start;
 }
